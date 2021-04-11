@@ -1,6 +1,5 @@
 build/*
 *.log
-*.pdf
 *.out
 *.synctex.*
 *.png
