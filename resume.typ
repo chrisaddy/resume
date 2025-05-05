@@ -6,19 +6,16 @@
 #let github = "github.com/chrisaddy"
 #let linkedin = "linkedin.com/in/christopheraddy"
 #let phone = "+1 (484) 464-1249"
-// #let personal-site = "stuxf.dev"
+#let personal-site = "hyperprior.space"
 
 #show: resume.with(
   author: name,
-  // All the lines below are optional. 
-  // For example, if you want to to hide your phone number:
-  // feel free to comment those lines out and they will not show.
   location: location,
   email: email,
   github: github,
   linkedin: linkedin,
   phone: phone,
-  personal-site: personal-site,
+  // personal-site: personal-site,
   accent-color: "#26428b",
   font: "New Computer Modern",
   paper: "us-letter",
@@ -26,18 +23,6 @@
   personal-info-position: left,
 )
 
-/*
-* Lines that start with == are formatted into section headings
-* You can use the specific formatting functions if needed
-* The following formatting functions are listed below
-* #edu(dates: "", degree: "", gpa: "", institution: "", location: "")
-* #work(company: "", dates: "", location: "", title: "")
-* #project(dates: "", name: "", role: "", url: "")
-* #extracurriculars(activity: "", dates: "")
-* There are also the following generic functions that don't apply any formatting
-* #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
-* #generic-one-by-two(left: "", right: "")
-*/
 == Work Experience
 
 #work(
@@ -67,3 +52,9 @@ Relevant coursework in statistical machine learning, survival analysis, structur
   degree: "Bachelor of Arts, Economics",
 )
 Relevant coursework in time-series forecasting, and causal modeling.
+
+#project(
+  dates: dates-helper(start-date: "February 2024", end-date: "Present"),
+  name: "Pocket Size Fund",
+  url: "pocketsize.fund"
+)
