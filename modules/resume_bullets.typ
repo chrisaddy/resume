@@ -2,11 +2,11 @@
 
 // URBN
 #let urbn_bullets = (
-  "Led migration from Airflow to Flyte, reducing technical debt and improving workflow orchestration for ML pipelines",
-  "Redesigned MLflow architecture and enhanced ML experiment tracking practices to improve model reproducibility and team collaboration",
-  "Established testing culture by implementing Pandera, Pydantic, and Cucumber tests for previously untested ML pipelines and infrastructure",
-  "Optimized ETL pipeline performance by transitioning from pandas to DuckDB, resulting in improved processing efficiency and reduced resource consumption",
-  "Collaborated with cross-functional teams to implement MLOps best practices and accelerate model deployment processes",
+  "Led migration from Airflow to Flyte, reducing technical debt and improving workflow orchestration for ML pipelines.",
+  "Redesigned MLflow architecture and enhanced ML experiment tracking practices to improve model reproducibility and team collaboration.",
+  "Established testing culture by implementing Pandera, Pydantic, and Cucumber tests for previously untested ML pipelines and infrastructure.",
+  "Optimized ETL pipeline performance by transitioning from pandas to DuckDB, resulting in improved processing efficiency and reduced resource consumption.",
+  "Collaborated with cross-functional teams to implement MLOps best practices and accelerate model deployment processes.",
 )
 
 // Pepsico Head ML Engineering

@@ -40,7 +40,7 @@
 #let  heavywater_work = work(
     title: "Data Scientist",
     location: "Philadelphia, PA",
-    company: "Heavywater, AI Division of Black Knight",
+    company: "Heavywater",
     dates: dates-helper(start-date: "November 2018", end-date: "October 2019"),
   )
 

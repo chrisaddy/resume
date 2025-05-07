@@ -32,6 +32,9 @@ new-application job_name:
     # Copy application and company profile templates
     cp application_template.md applications/{{job_name}}/application.md
     cp company_profile_template.md applications/{{job_name}}/company_profile.md
+    
+    # Copy keyword analysis template
+    cp applications/keywords_template.md applications/{{job_name}}/keywords.md
 
 build-application job_name:
     typst compile applications/{{job_name}}/resume.typ
@@ -42,3 +45,19 @@ watch-application job_name:
 
 list-applications:
     ls -la applications/
+
+# Haskell ATS Resume Matcher commands
+build-ats:
+    cd ats-resume-matcher && stack build
+
+install-ats:
+    cd ats-resume-matcher && stack install
+
+score-resume resume_file job_file:
+    cd ats-resume-matcher && stack exec ats-resume-matcher -- score --resume {{resume_file}} --job {{job_file}}
+
+batch-process resume_file jobs_dir:
+    cd ats-resume-matcher && stack exec ats-resume-matcher -- batch --resume {{resume_file}} --jobs-dir {{jobs_dir}}
+
+extract-job job_text output_file:
+    cd ats-resume-matcher && stack exec ats-resume-matcher -- extract-job "{{job_text}}" --output {{output_file}}

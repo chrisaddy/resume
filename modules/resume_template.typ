@@ -25,21 +25,21 @@
 
   [== Work Experience]
 
-#urbn_work
+  urbn_work
   [- #urbn_bullets.at(0)]
   [- #urbn_bullets.at(1)]
   [- #urbn_bullets.at(2)]
   [- #urbn_bullets.at(3)]
   [- #urbn_bullets.at(4)]
 
-#pepsi_head_work
+  pepsi_head_work
   [- #pepsico_head_bullets.at(0)]
   [- #pepsico_head_bullets.at(1)]
   [- #pepsico_head_bullets.at(2)]
   [- #pepsico_head_bullets.at(3)]
   [- #pepsico_head_bullets.at(4)]
 
-#pepsi_principal_work
+  pepsi_principal_work
   [- #pepsico_principal_bullets.at(0)]
   [- #pepsico_principal_bullets.at(1)]
   [- #pepsico_principal_bullets.at(2)]
@@ -49,7 +49,7 @@
   [- #pepsico_principal_bullets.at(6)]
   [- #pepsico_principal_bullets.at(7)]
 
-#penn_work
+  penn_work
   [- #penn_interactive_bullets.at(0)]
   [- #penn_interactive_bullets.at(1)]
   [- #penn_interactive_bullets.at(2)]
@@ -57,10 +57,10 @@
   [- #penn_interactive_bullets.at(4)]
   [- #penn_interactive_bullets.at(5)]
 
-#heavywater_work
-[- #heavywater_bullets.at(0)]
-[- #heavywater_bullets.at(1)]
-[- #heavywater_bullets.at(2)]
+  heavywater_work
+  [- #heavywater_bullets.at(0)]
+  [- #heavywater_bullets.at(1)]
+  [- #heavywater_bullets.at(2)]
 
   [== Education]
 

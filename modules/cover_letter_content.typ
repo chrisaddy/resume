@@ -22,5 +22,6 @@
 
 #let signature = {
   [Sincerely,
+
 Chris Addy]
 }

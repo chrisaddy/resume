@@ -1,3 +1,6 @@
 applications/
 
 **/.claude/settings.local.json
+.DS_Store
+resume.pdf
+cover_letter.pdf

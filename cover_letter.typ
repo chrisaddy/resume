@@ -18,7 +18,7 @@
     institution: [Company Name],
     address: [],
     postcode: [],
-    start-title: [Dear Hiring Manager],
+    start-title: [Dear Hiring Manager,],
     cl-title: [],
   ),
 )
@@ -35,3 +35,7 @@ Throughout my career, I have demonstrated a proven track record of building scal
 I am particularly drawn to Company Name because of [specific reason about the company/position]. I am confident that my skills in [relevant skills matching job description] align well with what you're looking for in this role.
 
 I would welcome the opportunity to discuss how my background and expertise can benefit your team. Thank you for considering my application.
+
+Sincerely,
+
+Chris Addy

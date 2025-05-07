@@ -60,6 +60,7 @@
 - [Connection point 1 between your experience and company needs]
 - [Connection point 2 between your experience and company needs]
 - [Connection point 3 between your experience and company needs]
+- [Personal connection point - how your experience as a user informs your understanding of their products/customers]
 
 ### Keywords to Emphasize
 - [Keyword/phrase 1 from job description that matches your skills]
@@ -78,12 +79,18 @@
 - [Likely technical question 2]
 - [Likely cultural fit question 1]
 - [Likely cultural fit question 2]
+- "What do you personally value about our product/service?"
+- "How has your experience as a user influenced your understanding of our customers/market?"
+- "What improvements would you suggest to our product based on your experience?"
+- "Why are you personally interested in working with us beyond the professional opportunity?"
 
 ### Questions to Ask Interviewer
 - [Question about team structure or processes]
 - [Question about product roadmap or technical challenges]
 - [Question about company culture or values]
 - [Question about growth opportunities]
+- [Question about how user feedback is incorporated into product development]
+- [Question about future product direction based on your experience as a user]
 
 ## Notes on Company Culture and Fit
 - [Observation about company culture]
