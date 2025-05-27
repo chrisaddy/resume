@@ -1,6 +1,9 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to LLM-based coding agents (for example Claude or ChatGPT) when working with code in this repository.
+
+## Repository Overview
+This project generates resumes and cover letters from Typst templates. The main files `resume.typ` and `cover_letter.typ` pull in reusable components from the `modules/` directory. Commands in `justfile` compile these documents and create per-job application folders under `applications/` (listed in `.gitignore`). Markdown templates (`application_template.md`, `company_profile_template.md`) hold job and company details. Additional advice lives in the `advice/` directory. The repo also includes utilities for ATS keyword matching implemented in Python and Haskell, with build commands defined in the `justfile` and tooling configured via a Nix flake.
 
 ## Build Commands
 - All commands should run through justfile
@@ -113,15 +116,15 @@ Before finalizing an application, verify the following:
 - Maintain a "learn and improve" mindset for each task
 - Document effective approaches and add them to this file for future reference
 - Always ask: "How could we make this faster or more efficient next time?"
-- When instructed to "add to memory," automatically update this CLAUDE.md file with the instruction or information
+- When instructed to "add to memory," automatically update this AGENTS.md file with the instruction or information
 - When user says "this is a top job," distill down why this is a top job for the user in first person (380 characters maximum) for LinkedIn purposes
 
-## GitHub Issues Workflow
-- Discuss potential improvements with Claude before creating issues
-- Claude will create GitHub issues after discussion
-- User will implement changes independently
-- User will add a "ready" label to the issue when implementation is complete
-- Claude will begin working on implementation only after seeing the "ready" label
+
+## Codex Branch Workflow
+- Discuss potential improvements directly with Codex
+- Codex will create a new branch to implement the requested changes
+- Review and merge the branch after confirming the work is correct
+- GitHub issues are no longer used for coordination
 
 ## Code Style Guidelines
 
