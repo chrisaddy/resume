@@ -7,6 +7,8 @@ This project generates resumes and cover letters from Typst templates. The main 
 
 ## Build Commands
 - All commands should run through justfile
+- If offline builds fail because Typst can't download packages, run a build once
+  while online so dependencies are cached for later offline use.
 - Build resume PDF: `just build`
 - Build cover letter: `just cover`
 - Watch resume for changes: `just watch`
