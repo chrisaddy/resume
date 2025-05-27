@@ -1,0 +1,12 @@
+# Question: Please briefly describe 2-3 significant infrastructure or distributed systems projects you have worked on.
+
+## Answer:
+
+### 1. ML Platform Architecture at Pepsico
+I architected and scaled a machine learning platform supporting 25+ production ML models across multiple business units. This involved designing a distributed system architecture that enabled seamless model deployment in heterogeneous computing environments. The platform incorporated dynamic resource allocation for distributed training, which improved GPU utilization by 35% and reduced training costs by 40%. Key achievements included reducing model deployment time by 300% and establishing a high-performance feature store and model serving architecture that reduced inference latency by 55% for real-time consumer-facing applications.
+
+### 2. MLflow and Flyte Migration at URBN
+I led the redesign and migration of our ML orchestration infrastructure from Airflow to Flyte, creating a more scalable workflow orchestration architecture for distributed model training workloads. This included redesigning the MLflow architecture to enhance model versioning, reproducibility, and standardized model serving practices. The system incorporated high-performance monitoring that identified bottlenecks and optimized resource utilization across machine learning workloads. I also optimized data processing pipelines by transitioning from pandas to DuckDB, which reduced memory usage by 60% and improved ETL processing speed by 45% for large-scale feature computation.
+
+### 3. KubeFlow Pipeline Infrastructure at Pepsico
+I designed and implemented a robust ML pipeline infrastructure using KubeFlow that standardized end-to-end workflows from data ingestion to model deployment on distributed infrastructure. This system was built to handle 200+ GB of daily training data across multiple geographic regions and included a scalable model serving architecture for real-time inference, achieving sub-100ms latency for time-sensitive prediction services. The containerization and orchestration of machine learning workloads reduced time-to-delivery by 50% and improved model training throughput, while optimized AWS compute resources reduced infrastructure costs by $10k monthly.
