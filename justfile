@@ -1,3 +1,6 @@
+list:
+    just --list
+
 build:
     typst compile resume.typ
     typst compile cover_letter.typ
@@ -45,19 +48,3 @@ watch-application job_name:
 
 list-applications:
     ls -la applications/
-
-# Haskell ATS Resume Matcher commands
-build-ats:
-    cd ats-resume-matcher && stack build
-
-install-ats:
-    cd ats-resume-matcher && stack install
-
-score-resume resume_file job_file:
-    cd ats-resume-matcher && stack exec ats-resume-matcher -- score --resume {{resume_file}} --job {{job_file}}
-
-batch-process resume_file jobs_dir:
-    cd ats-resume-matcher && stack exec ats-resume-matcher -- batch --resume {{resume_file}} --jobs-dir {{jobs_dir}}
-
-extract-job job_text output_file:
-    cd ats-resume-matcher && stack exec ats-resume-matcher -- extract-job "{{job_text}}" --output {{output_file}}
